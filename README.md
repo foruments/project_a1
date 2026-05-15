@@ -1,9 +1,8 @@
-# 🐕 CPG-Gait Optimization for Unitree A1
+# CPG-Gait Optimization for Unitree A1
 
 [![Python](https://img.shields.io/badge/Python-3.10+-blue.svg)](https://www.python.org/)
 [![MuJoCo](https://img.shields.io/badge/MuJoCo-3.x-orange.svg)](https://mujoco.org/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
-[![ITMO](https://img.shields.io/badge/University-ITMO-red.svg)](https://itmo.ru/)
 
 **Параметрическая оптимизация походки четвероногого робота Unitree A1 в среде MuJoCo** с использованием CPG-контроллера и трёх методов оптимизации: brute-force, CMA-ES, NSGA-II.
 
@@ -87,7 +86,7 @@ python run.py
 
 ---
 
-## 🎮 Использование
+## Использование
 
 ### Интерактивный режим
 
@@ -130,7 +129,7 @@ python run.py --action run_best
 
 ---
 
-## 🏗 Архитектура
+## Архитектура
 
 ```
 project_a1/
@@ -178,7 +177,7 @@ project_a1/
 
 ---
 
-## 📊 Пространство оптимизации
+## Пространство оптимизации
 
 8 непрерывных параметров:
 
@@ -195,7 +194,7 @@ project_a1/
 
 ---
 
-## 📐 Метрики
+## Метрики
 
 | Метрика | Формула | Цель |
 |---|---|---|
@@ -208,7 +207,7 @@ project_a1/
 
 ---
 
-## 📈 Результаты
+## Результаты
 
 Лучшие результаты на полосе `flat → rough`:
 
@@ -222,7 +221,7 @@ project_a1/
 
 ---
 
-## 🛠 Особенности реализации
+## Особенности реализации
 
 ### Защита от обхода препятствий
 Все препятствия покрывают полную ширину коридора 2 м. По краям стоят полупрозрачные стенки. J₆ = 1 только если робот реально прошёл через препятствия, а не обошёл их сбоку.
@@ -235,7 +234,7 @@ P-регулятор по yaw и lateral position снижает дрейф с 1
 
 ---
 
-## 🔗 Полезные ссылки
+## Полезные ссылки
 
 - [MuJoCo Menagerie](https://github.com/google-deepmind/mujoco_menagerie) — модель Unitree A1
 - [pycma](https://github.com/CMA-ES/pycma) — реализация CMA-ES
@@ -244,7 +243,7 @@ P-регулятор по yaw и lateral position снижает дрейф с 1
 
 ---
 
-## 📚 Цитирование
+## Цитирование
 
 Если этот проект помог в исследованиях:
 
@@ -253,7 +252,7 @@ P-регулятор по yaw и lateral position снижает дрейф с 1
   author = {Vzglyadov, Z.E.},
   title = {CPG-Based Gait Optimization for Unitree A1 Quadruped Robot in MuJoCo},
   year = {2026},
-  url = {https://github.com/USERNAME/project_a1},
+  url = {https://github.com/foruments/project_a1},
   note = {ITMO University course project}
 }
 ```
@@ -262,7 +261,7 @@ P-регулятор по yaw и lateral position снижает дрейф с 1
 
 ---
 
-## 📄 Лицензия
+## Лицензия
 
 [MIT](LICENSE) — свободно используй, модифицируй, распространяй.
 
@@ -270,6 +269,6 @@ P-регулятор по yaw и lateral position снижает дрейф с 1
 
 <div align="center">
 
-Made with 🐕 at [ITMO University](https://itmo.ru/) · Faculty of Control Systems and Robotics
+Made with at [ITMO University](https://itmo.ru/) · Faculty of Control Systems and Robotics
 
 </div>
