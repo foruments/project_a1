@@ -1,0 +1,33 @@
+cff-version: 1.2.0
+message: "Если используете этот проект в исследованиях, пожалуйста, ссылайтесь так:"
+title: "CPG-Based Gait Optimization for Unitree A1 Quadruped Robot in MuJoCo"
+authors:
+  - family-names: "Взглядов"
+    given-names: "Захар"
+    affiliation: "ITMO University"
+type: software
+license: MIT
+date-released: 2026-05-15
+repository-code: "https://github.com/foruments/project_a1"
+keywords:
+  - quadruped robot
+  - CPG controller
+  - MuJoCo
+  - gait optimization
+  - CMA-ES
+  - NSGA-II
+  - Unitree A1
+references:
+  - type: article
+    authors:
+      - family-names: "Owaki"
+        given-names: "Dai"
+      - family-names: "Kano"
+        given-names: "Takeshi"
+      - family-names: "Ishiguro"
+        given-names: "Akio"
+    title: "Foot trajectory as a key factor for diverse gait patterns in quadruped robot locomotion"
+    journal: "Scientific Reports"
+    year: 2025
+    volume: 15
+    doi: "10.1038/s41598-024-84060-5"

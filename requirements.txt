@@ -1,0 +1,6 @@
+mujoco>=3.0.0
+numpy>=1.20
+matplotlib>=3.5
+cma>=4.0
+pymoo>=0.6
+questionary>=2.0
